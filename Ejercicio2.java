@@ -15,6 +15,18 @@ public class Ejercicio2 {
         System.out.println("El número mayor es: " + maximo);
     }
 
+        void factorizar(int n){
+            System.out.println((n>=0)? "El factorial es: "+factorial(n):"Sintax error");
+        }
+
+        private long factorial (int n){
+        long resultado = 1;
+        for(int i = 2; i<= n ; i++){
+            resultado *= i;
+        }
+        return resultado;
+    }
+
     
     public static void main(String[] args) {
         Ejercicio2 ejercicio = new Ejercicio2();
