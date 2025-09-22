@@ -15,9 +15,13 @@ public class Ejercicio2 {
         System.out.println("El número mayor es: " + maximo);
     }
 
-    
+    //siguiente metodo aqui csmd
+
+
     public static void main(String[] args) {
         Ejercicio2 ejercicio = new Ejercicio2();
         ejercicio.MAXIMIZA_josue(); 
-    }
+
+        //aqui llame a su metodo csmd    
+        }
 }
