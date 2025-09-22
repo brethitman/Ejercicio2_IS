@@ -14,7 +14,7 @@ public class Ejercicio2 {
 
         System.out.println("El número mayor es: " + maximo);
     }
-
+        //metodo factorial rodrigo
         void factorizar(int n){
             System.out.println((n>=0)? "El factorial es: "+factorial(n):"Sintax error");
         }
@@ -30,6 +30,7 @@ public class Ejercicio2 {
     
     public static void main(String[] args) {
         Ejercicio2 ejercicio = new Ejercicio2();
-        ejercicio.MAXIMIZA_josue(); 
+        ejercicio.MAXIMIZA_josue();
+        ejercicio.factorial(5) ;
     }
 }
