@@ -15,27 +15,26 @@ public class Ejercicio2 {
 
         System.out.println("El número mayor es: " + maximo);
     }
-
-    // Método para obtener el número menor
-    void minimo_fernando() {
-        int a = 8;
-        int b = 19;
-
-        int minimo;
-
-        if (a < b) {
-            minimo = a;
-        } else {
-            minimo = b;
+        //metodo factorial rodrigo
+        void mostrarFactorial(int n){
+            System.out.println((n>=0)? "El factorial es: "+factorial(n):"Sintax error");
         }
 
-        System.out.println("El número menor es: " + minimo);
+        private long factorial (int n){
+        long resultado = 1;
+        for(int i = 2; i<= n ; i++){
+            resultado *= i;
+        }
+        return resultado;
     }
 
+    
     public static void main(String[] args) {
         Ejercicio2 ejercicio = new Ejercicio2();
         ejercicio.MAXIMIZA_josue();
         ejercicio.minimo_fernando(); 
+        ejercicio.MAXIMIZA_josue();
+        ejercicio.mostrarFactorial(9) ;
     }
 }
 
